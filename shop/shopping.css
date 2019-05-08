@@ -1,0 +1,544 @@
+/* SHOPPING */
+.top-part {
+	position: relative;
+}
+
+.top-info {
+	background: rgb(249, 234, 232);
+	padding-bottom: 60px;
+}
+.top-info h2.underlayer{
+	padding: 82px 0 40px;
+	font-size: 33px;
+}
+.brand {
+	padding-top: 65px;
+	padding-bottom: 40px;
+}
+.brand .logo {
+	display: block;
+	margin: 0 auto;
+}
+.brand h2.title {
+    padding: 50px 0 50px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    color: rgb(120,0,0);
+    letter-spacing: 3px;
+}
+.brand-txt {
+	text-align: center;
+	font-size: 13px;
+	line-height: 24px;
+}
+.list01 ul {
+	margin: 74px 0;
+	font-size: 0;
+	
+}
+h2.underlayer {
+	font-family: "Noto Sans Japanese";
+}
+/* shopaoyama */
+.aoyama h2.underlayer {
+	padding: 110px 0 28px;
+	font-size: 28px;
+	font-weight: normal;
+}
+ul.shop_img {
+	margin: 27px auto 0;
+	text-align: center;
+	padding: 0 90px;
+	font-size: 0;
+}
+ul.shop_img li {
+	display: inline-block;
+	width: 335px;
+	vertical-align: top;
+}
+ul.shop_img li:nth-child(1) {
+	margin-right:22px;
+}
+ul.shop_img li > img {
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+ul.business_hours {
+	text-align: center;
+	margin: 50px 0 40px;
+	font-size: 12px;
+}
+ul.business_hours li {
+}
+ul.business_hours li a{
+	margin-left: 14px;
+}
+p.address {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+p.address a.contact {
+	color: #780000;
+}
+.aoyama .link_buttons {
+	margin-top: 54px !important;
+	margin-bottom: 100px;
+}
+/* shopconcept */
+.concept h2.underlayer {
+	padding: 110px 0 45px;
+	font-size: 26px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+.concept-top {
+	background:url("bg01.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding-top: 95px;
+	padding-bottom: 50px;
+	margin-bottom: 90px;
+}
+.concept-top .concept-logo {
+	margin: 15px auto 62px;
+}
+.concept-txt {
+	text-align: center;
+	width: 790px;
+	margin: 0 auto;
+}
+.concept-txt .txt {
+	margin-top: 18px;
+	line-height: 24px;
+	font-size: 13px;
+}
+.concept-txt .txt .large-font {
+	display: block;
+	font-size: 26px;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+	font-family: "Noto sans japanese";
+}
+.content {
+	font-size: 0;
+}
+.content .left-part {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3%;
+}
+.content .left-part > img {
+	width: 100%;
+}
+.content .right-part {
+	width: 77%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+}
+.content .right-part > p {
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+.concept .link_buttons {
+	margin-bottom: 84px;
+}
+/* food_sweets */
+.shopping_food_sweets{
+  max-width: 1000px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+	position:relative;
+}
+.shopping_food_sweets .sweets h2.underlayer {
+	padding: 105px 0 0;
+}
+.shopping_food_sweets .sweets .block {
+	margin: -12px auto 96px;
+}
+.shopping_food_sweets h3.ttl img{
+	display:inline-block;
+	vertical-align: middle;
+}
+/*
+.shopping_food_sweets h3.ttl {
+	padding-bottom: 10px;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+*/
+.shopping_food_sweets h3.ttl span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:15px;
+}
+.shopping_food_sweets .sweets .sub{
+	margin-left: 0px;
+	display: block;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: "Noto sans japanese";
+}
+.shopping_food_sweets .sweets ul{
+	width:100%;
+	margin:70px auto 40px;
+}
+.shopping_food_sweets .sweets li{
+	width:100%;
+	padding: 0 0 40px 0;
+}
+.shopping_food_sweets .sweets img.main_icon{
+	width:250px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:40px;
+/*
+	margin-left:0;
+	margin-top:20px;
+*/
+}
+.shopping_food_sweets .sweets .profile{
+	display:inline-block;
+	vertical-align:top;
+	width:68%;
+/*
+	margin-top:20px;
+*/
+}
+.shopping_food_sweets .sweets .profile p{
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 26px;
+    letter-spacing: 1px;
+}
+.shopping_food_sweets .sweets .profile p.description {
+	margin-top: 19px;
+}
+.shopping_food_sweets .sweets .profile p.info span{
+	display:block;
+	text-indent:-1em;
+	margin-left:1em;
+}
+.shopping_food_sweets .sweets .profile p.attention span{
+	display:block;
+	text-indent:0em;
+	margin-left:0em;
+}
+.shopping_food_sweets .sweets .profile p.info span:before{
+	content:"\25cf";
+}
+.shopping_food_sweets .sweets .profile p.attention span:before{
+	content:"\203b";
+}
+.shopping_food_sweets .sweets .f-red{
+	color:rgb(150, 34, 34);
+}
+.shopping_food_sweets .sweets .f-red:hover{
+	opacity: 0.5;
+	cursor:pointer;
+}
+/* red_btn */
+
+.link_buttons a.red_btn:after{
+	top: 16px;
+	right: 15px;
+}
+a.red_btn{
+	display:inline-block;
+}
+a.red_btn.online {
+	margin-right: 40px;
+}
+a.red_btn.online img{
+  display: inline-block;
+  position: absolute;
+  width: 28px;
+  top: 10%;
+  left: 4%;
+}
+a.red_btn.facebook img{
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  margin-top: -9px;
+  top: 50%;
+  left: 6%;
+}
+.top-part .link_buttons {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -186px;
+	margin-top: -40px;
+}
+.top-part .link_buttons a.red_btn.online {
+	width: 323px;
+	height: 80px;
+	font-size: 26px;
+	padding-left: 48px;
+	line-height: 80px;
+	letter-spacing: 3px;
+	margin-right: 0;
+}
+.top-part .link_buttons a.red_btn.online img {
+	width: 51px;
+	left: 8%;
+	top: 12%;
+}
+.top-part .link_buttons a.red_btn:after {
+	top: 43%;
+	right: 6%;
+}
+.kv h2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -354px;
+  letter-spacing: 7px;
+}
+
+@media screen and (max-width: 739px) {
+	.top-part .link_buttons {
+		margin-left: -90px;
+		margin-top: -22px;
+	}
+	.top-part a.red_btn:before {
+		width: 26px;
+		height: 29px;
+		background-size: 100%;
+	}
+	.top-part a.red_btn:after {
+		top: 18px;
+	}
+	.top-part .link_buttons a.red_btn.online {
+		width: 158px !important;
+		height: 40px ;
+		font-size: 10px;
+		padding-top: 0;
+		line-height: 40px;
+		padding-left: 26px;
+	}
+	.top-part .link_buttons a.red_btn.online img {
+		width: 25px;
+		left: 7%;
+		margin-top: -14px;
+		top: 50%;
+	}
+	.top-info {
+		padding-bottom: 58px;
+	}
+	.top-info h2.underlayer {
+		padding: 30px 0 10px;
+		font-size: 18px;
+	}
+	.list01 ul {
+		margin: 20px 0 36px;
+	}
+	.brand .logo {
+		width: 57px;
+	}
+	.brand {
+		padding-top: 19px;
+		padding-bottom: 20px;
+	}
+	.brand h2.title {
+		padding: 21px 0 10px;
+		font-size: 18px;
+		font-family: "Noto sans japanese";
+	}
+	.brand-txt {
+		text-align: left;
+		padding: 0 10px;
+		font-size:12px;
+		line-height: 20px;
+	}
+	/* shopaoyama */
+	.aoyama h2.underlayer {
+		font-size: 18px;
+		padding: 82px 0 90px;
+	}
+	ul.shop_img  {
+		padding: 0 10px;
+		margin: 10px 0 0;
+	}
+	ul.shop_img li {
+		width: 49%;
+	}
+	ul.shop_img li:nth-child(1) {
+		margin-right:6px;
+	}
+	ul.business_hours {
+		text-align: left;
+		padding: 0 15px;
+		margin: 25px 0 0;
+		font-size: 12px;
+	}
+	p.address {
+		text-align: left;
+		padding: 0 10px;
+		margin: 10px 0 0;
+		font-size: 12px;
+	}
+	.twin-btn .red_btn {
+		display: block;
+		margin: 20px auto;
+	}
+	/* shopconcept */
+	.concept-top {
+		background:url("shopbg01.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.concept h2.underlayer {
+		padding: 80px 0 27px;
+		font-size: 18px;
+	}
+	.concept-top .concept-logo {
+		width: 70px;
+		margin: 20px auto 24px;
+	}
+
+	.concept-txt {
+		width: auto;
+	}
+	.concept-txt .txt {
+		margin-top: 20px;
+		font-size: 12px;
+		text-align: left;
+		line-height: 18px;
+	}
+	.concept-txt .txt .large-font {
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 12px;
+    letter-spacing: 1px;
+	}
+	.content .left-part {
+		display: block;
+		margin: 22px auto 0;
+		width: 40%;
+	}
+	.content .right-part {
+		display: block;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.content .right-part > p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.concept .link_buttons {
+		margin-bottom: 20px;
+	}
+	/*food_sweets*/
+	.shopping_food_sweets .sweets h2.underlayer {
+		padding: 75px 0 8px;
+	}
+	.shopping_food_sweets .sweets .block {
+		margin: -12px auto 14px;
+	}
+	.shopping_food_sweets h3.ttl img{
+		display:inline-block;
+	  vertical-align: bottom;
+		margin-right:0px;
+		width:15px;
+	}
+	.shopping_food_sweets h3.ttl span{
+	  padding-bottom: 0px;
+	  margin-left:6px;
+	  font-size: 12px;
+	}
+	.shopping_food_sweets .sweets .sub{
+	  margin-left:0px;
+		display:block;
+		font-size:14px;
+		font-weight:500;
+	}
+	.shopping_food_sweets .sweets ul{
+		width:100%;
+		margin:70px auto 0px;
+	}
+	.shopping_food_sweets .sweets li{
+		width:100%;
+		padding: 0 0 40px 0;
+	}
+	.shopping_food_sweets .sweets img.main_icon{
+		max-width:250px;
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+/*		margin-top:25px;	*/
+		width:50%;
+	}
+	.shopping_food_sweets .sweets .profile{
+		display:block;
+		margin-top:30px;
+		vertical-align:top;
+		width:100%;
+	}
+	.shopping_food_sweets .sweets .profile p{
+		margin-bottom:10px;
+		font-size:12px;
+		line-height:18px;
+		margin-top:20px;
+	}
+	.shopping_food_sweets .sweets .profile p.info span{
+		display:block;
+		text-indent:-1em;
+		margin-left:1em;
+	}
+	.shopping_food_sweets .sweets .profile p.attention span{
+		display:block;
+		text-indent:0em;
+		margin-left:0em;
+	}
+	.shopping_food_sweets .sweets .profile p.info span:before{
+		content:"\25cf";
+	}
+	.shopping_food_sweets .sweets .profile p.attention span:before{
+		content:"\203b";
+	}
+	a.red_btn.online img{
+	  display: inline-block;
+	  position: absolute;
+	  width: 28px;
+	  margin-top: -14px;
+	  top: 50%;
+	  left: 4%;
+	}
+	a.red_btn.facebook img{
+	  display: inline-block;
+	  position: absolute;
+	  width: 14px;
+	  margin-top: -7px;
+	  top: 50%;
+	  left: 5%;
+	}
+.aoyama .link_buttons {
+	margin-bottom: 18px;
+}
+a.red_btn.online{
+	margin: 0 auto 10px;
+	margin-right: 0;
+}
+.title01 {
+	padding: 80px 0 90px;
+}
+.kv h2{
+    margin-left: -95px;
+    letter-spacing: 2px;
+}
+
+
+
+}
