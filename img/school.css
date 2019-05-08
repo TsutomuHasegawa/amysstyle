@@ -1,0 +1,1138 @@
+ /* SCHOOL */
+.introduction {
+	background: url('schoolbg01.jpg') no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 87px;
+}
+.introduction h1.logo {
+	padding: 82px 0 72px;
+}
+.introduction h1.logo > img {
+	margin: 0 auto;
+}
+.introduction .concept {
+	color: rgb(120, 0, 0);
+	font-size: 28px;
+	font-family: "Noto sans japanese";
+	padding-bottom: 18px;
+	letter-spacing: 2px;
+}
+.introduction .exp {
+	margin-top: 28px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 22px
+}
+
+.introduction .admission-accepted{
+  color: rgb(120, 0, 0);
+  font-size: 16px;
+  font-family: "Noto sans japanese";
+  letter-spacing: 2px;
+  border: solid 2px rgb(120, 0, 0);
+  padding: 15px 0px;
+  margin: 10px 390px 5px;
+  font-weight: normal;
+}
+
+.introduction .admission-accepted .head{
+  line-height:30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.col3 {
+	padding: 47px 0 87px;
+	margin-top: 0;
+}
+.school_about h2.underlayer {
+	padding: 105px 0 42px;
+	font-family: "Noto sans japanese"
+}
+
+.school_about .salutation{
+	padding-top:100px!important;
+}
+/*
+.school_about .salutation h2.underlayer {
+	padding: 118px 0 72px;
+}
+*/
+.school_about .salutation .content .text {
+	font-size: 14px;
+}
+.school_about .salutation .mb {
+	margin-bottom: 105px !important;
+}
+.about {
+	background: url('about_bg.jpg') no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	text-align: center;
+  padding-bottom: 125px;
+  padding-top: 141px;
+}
+
+.about h3{
+    font-size: 24px;
+    margin-bottom: 47px;
+    font-weight: normal;
+    font-family: "Noto sans japanese";
+    letter-spacing: 6px;
+}
+.about .text{
+  line-height: 24px;
+  font-size: 14px;
+}
+.about .overflow{
+	overflow:hidden;
+}
+.about .list{
+  font-size: 0;
+  text-align: center;
+  margin-top: 86px;
+	position:relative;
+	left:50%;
+}
+.about .list li{
+	position:relative;
+	left:-50%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  width:14.2%;
+}
+.about .list li:before{
+  display: block;
+  font-size: 50px;
+  margin-bottom: 23px;
+}
+.about .list li:nth-child(1):before{
+  content: "01";
+
+}
+.about .list li:nth-child(2):before{
+  content:"02";
+}
+.about .list li:nth-child(3):before{
+  content:"03";
+}
+.about .list li:nth-child(4):before{
+  content:"04";
+}
+.about .list li:nth-child(5):before{
+  content:"05";
+}
+.about .list li:nth-child(6):before{
+  content:"06";
+}
+.about .list li:nth-child(7):before{
+  content:"07";
+}
+
+.school_course h2.underlayer{
+  padding: 106px 0 31px;
+}
+.school_course .class h2.underlayer{
+  padding: 115px 0 31px;
+}
+.school_course .lead{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 45px;
+	line-height:24px;
+}
+.school_course .class .lead{
+  margin-bottom: 85px;
+	line-height:24px;
+}
+.school_course .class .label{
+	font-size:14px;
+	display:inline-block;
+	margin-bottom:6px;
+	letter-spacing:2px;
+}
+.school_course .class .times{
+	margin-right:35px;
+	display:inline-block;
+}
+.school_course .class .txt{
+	font-size:13px;
+	margin-bottom:22px;
+	padding-left:20px;
+}
+.school_course .class .txt2{
+  line-height: 17px;
+  font-size: 12px;
+	padding-bottom:50px;
+	margin-top: -2px;
+    margin-left: 20px;
+}
+.school_course .class .attention{
+  display:block;
+}
+.school_course .class .note{
+	font-size:12px;
+	font-weight:normal;
+	letter-spacing:0px;
+}
+.school_course .class .label:before{
+	content:"\25cf";
+	margin-right:5px;
+	font-size:11px;
+	vertical-align:top;
+}
+.school_course .red_btn{
+	position:relative;
+	text-align:center;
+	letter-spacing:2px;
+	padding-left: 10px;
+  width: 230px;
+	margin-top:71px;
+}
+.school_course .red_btn img{
+	display: inline-block;
+  position: absolute;
+  width: 20px;
+  top: 22%;
+  left: 0%;
+}
+
+.course {
+	background: url('course_bg.jpg') no-repeat;
+	background-size: 100%;
+	margin: 0;
+	text-align: center;
+  padding-bottom: 115px;
+  padding-top: 50px;
+}
+.course h3{
+  font-size: 25px;
+  font-weight: normal;
+}
+.course .note{
+  display: block;
+  margin-top: 22px;
+	font-size:13px;
+}
+.course .list{
+  margin-top: 40px;
+}
+.course .list li{
+    margin-bottom: 35px;
+}
+.course .list .date{
+  font-size: 13px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  text-align: center;
+  width: 221px;
+  padding: 3px 7px 4px;
+  margin-top: 18px;
+}
+.course .list h4{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  margin: 13px 0;
+  letter-spacing: 6px;
+  line-height: 30px;
+  color: rgb(150, 34, 34);
+}
+
+.course .list p.text{
+    text-align: center;
+    margin: 0px 0 25px;
+		line-height:24px;
+		font-size:13px;
+}
+.course .list p.text2{
+    text-align: center;
+    margin: -9px 0 25px;
+		font-size:13px;
+}
+
+.course .list li:nth-child(2):after,
+.course .list li:nth-child(1):after{
+  content: "";
+  border-left: 3px solid rgb(150, 34, 34);
+  margin: 0 auto;
+  display: block;
+  width: 1px;
+  height: 40px;
+}
+.course .list li{
+  margin-bottom: 30px;
+}
+.course .list li:last-child{
+  margin-bottom: 0;
+}
+
+.school_teacher{
+  max-width: 1000px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+}
+/*
+.school_teacher h2{
+  font-family: "Noto Sans Japanese" !important;
+}
+*/
+/*
+.school_teacher .teachers h3.ttl{
+	width:100%;
+	padding-bottom:20px;
+	font-size:20px;
+  font-family: "Noto Sans Japanese" !important;
+}
+*/
+
+.school_teacher .teachers h4{
+  font-size: 20px;
+  color: rgb(150, 34, 34);
+  margin: 1px auto 5px 0px;
+  padding-bottom: 13px;
+	font-weight:normal;
+	letter-spacing:2px;
+	display:inline-block;
+}
+.school_teacher .teachers .sub_name{
+  font-size: 12px;
+  margin-left:14px;
+	display:inline-block;
+}
+.school_teacher .lead{
+  text-align: center;
+  font-size: 14px;
+	margin-bottom: 88px;
+  margin-top: -60px;
+  line-height: 24px;
+	padding:0 auto;
+}
+.school_teacher .teachers ul{
+	width:100%;
+	margin:0px auto 80px;
+	font-size:0;
+}
+.school_teacher .teachers li{
+	width:1000px;
+  border-bottom:2px solid rgb(150, 34, 34);
+	display:table;
+}
+.school_teacher .teachers li div{
+	padding:23px 0px 23px 20px;
+	display:inline-block;
+	width:480px;
+}
+
+.school_teacher .teachers img.main_icon{
+	width:70px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:20px;
+	margin-top:2px;
+	margin-left:10px;
+}
+
+.school_teacher .teachers .profile{
+	display:inline-block;
+	vertical-align:top;
+	width:360px;
+	padding:0;
+}
+.school_teacher .teachers .profile p{
+	margin-bottom:0px;
+	font-size:13px;
+	line-height:20px;
+}
+
+.school_admission{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+.school_admission .block li h3.ttl{
+	font-size:18px;
+}
+*/
+.school_admission ul{
+	margin-bottom:118px;
+	margin-top:49px;
+}
+.school_admission li{
+	margin-bottom: 59px;
+  font-size: 14px;
+}
+.school_admission li:nth-child(3){
+	padding-top:5px;	
+}
+.school_admission li:nth-child(4){
+	padding-top:16px;	
+}
+.school_admission li:nth-last-child(1){
+	padding-top:14px;	
+}
+.school_admission .lead{
+	position: absolute;
+  top: 163px;
+  width: 100%;
+  text-align: center;
+	font-size:14px;
+}
+
+.school_admission .admission .red_btn{
+	margin-top: 47px!important;
+  margin-bottom:0px!important;
+	width:238px;
+	display:block;
+	position:relative;
+	text-align:center;
+	font-size:14px!important;
+}
+.school_about .red_btn{
+	margin-top: 47px!important;
+  margin-bottom:0px!important;
+	width:238px;
+	display:block;
+	position:relative;
+	text-align:center;
+	font-size:14px!important;
+}
+
+.school_admission .admission .red_btn img{
+	display:inline-block;
+	position:absolute;
+	width:20px;
+	top:21%;
+	left:1%;
+}
+.introduction .red_btn{
+	margin-top: 47px!important;
+  margin-bottom:0px!important;
+	width:238px;
+	display:block;
+	position:relative;
+	text-align:center;
+	font-size:14px!important;
+}
+
+.school_about .red_btn img{
+	display:inline-block;
+	position:absolute;
+	width:20px;
+	top:21%;
+	left:1%;
+}
+
+.school_admission .admission .red_btn img,
+.school_about .red_btn img,
+.introduction .red_btn img{
+	display:inline-block;
+	position:absolute;
+	width:20px;
+	top:21%;
+	left:1%;
+}
+.school_admission .admission .submit_to{
+	margin-top:17px;
+}
+
+
+
+.block .content .text span.txt{
+  display: block;
+  padding-left: 15px;
+}
+.block .content .text span.label{
+  color: rgb(150, 34, 34);
+  font-weight: 500;
+}
+.block .content .text span.label .note{
+  color: #666;
+}
+.red_btn img {
+	display: inline-block;
+  vertical-align: top;
+  padding-left: 12px;
+  margin-right: 5px;
+}
+a.red_btn {
+  text-align: left;
+  margin: 80px auto 0px;
+}
+
+
+/* school_og */
+.school_og h2.underlayer{
+  padding:107px 0 30px;
+}
+.school_og .lead {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 68px;
+	line-height: 24px;
+}
+.school_og .list-style-disc li{
+	font-size:14px;
+  letter-spacing: -1px;
+}
+.school_og .list-style-disc.left {
+	float: left;
+	width: 52%;
+	margin-bottom:7px;
+}
+.school_og .list-style-disc.right {
+	float: left;
+	width: 48%;
+	margin-bottom:7px;
+}
+.school_og .list-style-disc li:before {
+	content: "\25cf";
+	margin-right:5px;
+}
+.school_og .red_btn {
+	text-align: center;
+	margin-top: 21px;
+	margin-bottom:20px;
+}
+.school_og .thumb-link li {
+	background: rgb(248, 238, 238);
+	float: left;
+	width: 48.5%;
+	margin-right: 3%;
+	margin-bottom: 1.5%;
+}
+.school_og .thumb-link li:nth-child(2n) {
+	margin-right: 0;
+}
+.school_og .thumb-link li a {
+	display: block;
+	height: 120px;
+}
+.school_og .thumb-link li img {
+	max-width:120px;
+	max-height:120px;
+	vertical-align: middle;
+	margin:auto;
+}
+
+.school_og .thumb-link li span.img_box {
+  width: 120px;
+  height: 120px;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.school_og .thumb-link li div {
+  padding: 16px;
+  font-size: 14px;
+  display: table-cell;
+}
+.school_og .block .content .text{
+  font-size: 13px;
+  margin-bottom: 32px;
+}
+.school_og .block .content .text span.label {
+	font-size: 19px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	display: inline-block;
+	letter-spacing:4px;
+}
+.school_og section.instagram {
+	text-align: center;
+	background: rgb(248, 238, 238);
+	padding: 88px 0 85px 0;
+  margin-top: 77px;
+}
+.school_og section.instagram img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}
+.school_og section.instagram h3 {
+	
+	color: rgb(150, 34, 34);
+	letter-spacing: 3px;
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+.school_og section.instagram h3 span {
+	padding-left: 14px;
+  font-weight: normal;
+  letter-spacing: 6px;
+	padding-right: 20px;
+}
+.school_og section.instagram .instagram-photo {
+	max-width: 1000px;
+	margin: 0 auto 36px;
+}
+.school_og section.instagram .instagram-photo img {
+	width: 25%;
+	float: left;
+}
+
+.school_archive .archive .main_icon{
+	width:200px;
+	display:inline-block;
+	margin-right:30px;
+	vertical-align:top;
+}
+
+.school_archive .archive .main_icon img{
+	max-width:100%;
+	margin:auto 0 auto auto;
+}
+
+.school_archive .archive h4{
+	color:rgb(150, 34, 34);
+	font-size:15px;
+	font-weight:normal;
+}
+.school_archive .archive .sub{
+	font-size:15px;
+  margin-top: 15px;
+  display: block;
+}
+.school_archive .archive li{
+	margin-bottom:10px;
+}
+
+
+.school_archive .archive li:nth-child(4) img{
+	width: 100%;
+  margin: 0 auto;
+  max-width: 302px;
+}
+
+.school_archive .archive .profile{
+	width:700px;
+	display:inline-block;
+	vertical-align:top;
+	word-wrap: break-word;
+}
+.school_archive .archive .profile img{
+	max-width:100%;
+	height:auto!important;
+}
+.school_archive .archive .profile p{
+	margin-top:15px;
+	line-height:18px;
+}
+.school_archive .archive .fee{
+	margin-left:4em;
+	display:block;
+	text-indent:-4em;
+}
+.school_archive .archive .mail:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+.school_archive .archive .block {
+	margin-bottom: 0;
+}
+.school_archive .archive .block .col3 {
+	padding: 22px 0 130px;
+}
+.kv h2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -284px;
+  letter-spacing: 6px;
+}
+
+/* sp */
+@media screen and (max-width: 739px) {
+	.introduction {
+		padding-bottom: 20px;
+		background: url('bg01_sp.jpg') no-repeat;
+	}
+	.introduction h1.logo {
+		padding: 20px 0;
+	}
+	.introduction h1.logo > img {
+		width: 100px;
+	}
+	.introduction .concept {
+		padding: 0;
+		font-size: 16px;
+	}
+	.introduction .exp {
+		padding: 0 16px;
+		margin-top: 15px;
+		text-align: left;
+		font-size: 12px;
+	}
+
+	.introduction .admission-accepted{
+    font-size: 14px;
+    letter-spacing: 2px;
+	  padding: 10px 0px;
+	  margin: 10px 10px 5px;
+	}
+
+	.introduction .admission-accepted .head{
+	  font-size: 18px;
+	}
+
+	.col3 {
+		padding: 20px 0 30px;;
+		margin-top:0;
+	}
+	.school_about h2.underlayer {
+		padding: 73px 0 52px;
+	}
+	.school_about .salutation{
+		padding-top:92px!important;
+	}
+/*
+	.school_about .salutation h2.underlayer {
+		padding: 29px 0 38px;
+	}
+*/
+	.school_about .salutation .content .text {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.school_about .salutation .mb {
+		margin-bottom: 24px !important;
+	}
+	.about {
+    margin: 0;
+    padding-bottom: 8px;
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+		background: url('about_bg_sp.jpg') no-repeat;
+		background-size: 100%;
+	}
+	.about h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+		line-height:18px;
+	}
+	.about .text {
+    line-height: 18px;
+    text-align: left;
+    font-size: 12px;
+	}
+	.about .list {
+    text-align: left;
+    margin-top: 15px;
+		left:0;
+	}
+	.about .list li {
+    margin-bottom: 8px;
+    font-size: 11px;
+    margin-right: 0;
+    width: 33.3%;
+    text-align: center;
+		left:0;
+	}
+	.about .list li:before {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 0px;
+    line-height: 30px;
+	}
+	.school_course h2.underlayer,
+	.school_og h2.underlayer,
+	h2.underlayer {
+    padding: 70px 0 70px;
+	}
+
+	.school_course .lead {
+		text-align: left;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+	}
+	.course {
+    padding-bottom: 8px;
+    padding-top: 38px;
+		background: url('course_bg_sp.jpg') no-repeat;
+		background-size: 100% 100%;
+	}
+	.course h3 {
+    font-size: 16px;
+	}
+	.course .list {
+    margin-top: 25px;
+	}
+	.course .note {
+    margin-top: 2px;
+    font-size: 11px;
+	}
+	.course .list .date {
+    font-size: 12px;
+    width: 200px;
+	}
+	.course .list h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 10px 0 5px;
+	}
+	.course .list p.text2, .course .list p.text {
+    text-align: center;
+    margin: 0px 0 12px;
+    font-size: 11px;
+    padding: 0 8px;
+		line-height:18px;
+	}
+	.course .list li {
+    margin-bottom: 12px;
+	}
+	.course .list li:nth-child(2):after, .course .list li:nth-child(1):after {
+    border-left: 2px solid rgb(150, 34, 34);
+		height:35px;
+	}
+	.school_course .class h2.underlayer{
+		padding:40px 0 20px;
+	}
+	.school_course .class .lead{
+		margin-bottom: 20px;
+		line-height:normal;
+	}
+	.school_course .lead{
+		line-height:normal;
+		margin-bottom:30px;
+	}
+
+	.school_course .red_btn{
+		margin-top:40px;
+		margin-bottom:40px;
+		padding: 0;
+	}
+	.school_course .red_btn img{
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    top: 25%;
+    left: 0%;
+	}
+
+	.school_course a.red_btn:after {
+	  width: 5px;
+	  height: 5px;
+	}
+	.school_course .class .label {
+	  font-size: 13px;
+	  margin-bottom: 0px;
+		font-weight: normal!important;
+	}
+	.school_course .class .label:before {
+    margin-right: 2px;
+    font-size: 10px;
+	}
+	.school_course .class .txt{
+		margin-bottom:10px;
+		padding-left:10px;
+		font-size:11.5px;
+	}
+	.school_course .class .times{
+		display:inline-block;
+		margin-right:0px;
+		width:72px;
+		vertical-align:top;
+	}
+	.school_course .class .classes{
+		vertical-align:top;
+		width:74%;
+		display:inline-block;
+	}
+	.school_teacher .lead{
+		margin-top:0;
+		line-height:normal;
+		text-align:left!important;
+		padding:0 8px;
+		margin-bottom:40px;
+	}
+	.school_course .class .note{
+		display: inline-block;
+	}
+	.school_course .class .attention {
+   	font-size:11px;
+	}
+	.school_course .class .txt2 {
+    padding-bottom: 30px;
+    margin-top: -5px;
+    margin-left:0px;
+		font-size:11px;
+	}
+/*
+	.school_teacher .teachers h3.ttl{
+		width:100%;
+		padding-bottom:7px;
+		font-size:15px;
+		margin-left:0;
+	}
+*/
+	.school_teacher .teachers h4{
+	  font-size: 15px;
+	  color: rgb(150, 34, 34);
+	  margin: 0px auto 0px 0px;
+	  padding-bottom: 0px;
+		font-weight:normal;
+		letter-spacing:2px;
+		display:inline-block;
+	}
+	.school_teacher .teachers .sub_name{
+	  font-size: 12px;
+	  margin-left:5px;
+		display:inline-block;
+	}
+	.school_teacher .lead{
+	  text-align: center;
+	  font-size: 12px;
+	  margin-bottom: 35px;
+	}
+	.school_teacher .teachers ul{
+		width:100%;
+		margin:0px auto 10px;
+		font-size:0;
+		text-align:center;
+		display:block;
+	}
+	.school_teacher .teachers li{
+		width:100%;
+		padding:0 0px 0px
+		display:block;
+		border-bottom:none;
+	}
+	.school_teacher .teachers li div{
+		width:100%;
+		padding:23px 0px 23px;
+	  border-bottom:2px solid rgb(150, 34, 34);
+		display:block;
+	}
+
+	.school_teacher .teachers img.main_icon{
+		width:70px;
+		display:inline-block;
+		vertical-align:top;
+		margin-right:10px;
+		margin-left:10px;
+	}
+	.school_teacher .teachers .profile{
+		display:inline-block;
+		vertical-align:top;
+		width:70%;
+		text-align:left;
+		border-bottom:none;
+	}
+	.school_teacher .teachers .profile p{
+		margin-top:7px;
+		font-size:12px;
+		line-height:18px;
+	}
+
+	.block .content .text span.label .note {
+    color: #666;
+    font-size: 11px;
+	}
+	.red_btn img{
+    width: 15px;
+    padding-top: 2px;
+	}
+	a.red_btn {
+    text-align: left;
+    margin: 20px auto 12px;
+	}
+	.school_og .lead {
+		text-align: left;
+		padding: 0 16px;
+    line-height: normal;
+    font-size: 12px;
+		margin-bottom:40px;
+	}
+	.school_og .list-style-disc li {
+	  font-size: 12px;
+	  letter-spacing: 0px;
+		text-indent: -17px;
+    padding-left: 17px;
+    line-height: normal;
+	}
+	.school_og .list-style-disc.left,
+	.school_og .list-style-disc.right {
+		float: none;
+		width: auto;
+		margin-bottom:0;
+	}
+	.school_og .block .content .text {
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: normal;
+	}
+	.school_og section.instagram {
+	    text-align: center;
+	    background: rgb(248, 238, 238);
+	    padding: 28px 0 30px 0;
+	    margin-top: 40px;
+	}
+	.school_og .ttl .sub-ttl {
+		font-size: 10px;
+	}
+	.school_og .thumb-link li {
+		float: none;
+		width: auto;
+		margin-right: 0;
+		margin-bottom: 2%;
+	}
+
+	.school_og .thumb-link li img {
+		max-width:60px;
+		max-height:60px;
+	}
+
+	.school_og .thumb-link li img.no_image{
+		width:30px;
+		margin:auto;
+	}
+
+	.school_og .thumb-link li span.img_box {
+		width:60px;
+		height:60px;
+	}
+
+	.school_og .thumb-link li div {
+		padding: 7px;
+		line-height: 14px;
+		font-size: 12px;
+	}
+	.school_og .thumb-link li a {
+		height: 60px;
+	}
+	.school_og section.instagram h3 {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	.school_og section.instagram h3 img {
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+	}
+	.school_og section.instagram h3 span {
+	    padding-left: 5px;
+	    font-weight: normal;
+	    letter-spacing: 2px;
+	    padding-right: 5px;
+	}
+	.school_og section.instagram .instagram-photo {
+		padding: 0 18px;
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+	.school_og section.instagram .instagram-photo img {
+		width: 50%;
+		margin-bottom:0;
+	}
+	.school_og .block .content .text span.label {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+	}
+
+	.school_admission .admission .red_btn{
+		margin-top: 30px!important;
+	  margin-bottom: 0px!important;
+		font-size:14px!important;
+		padding:0px 10px 0;
+	}
+	.school_about .red_btn{
+		margin-top: 30px!important;
+	  margin-bottom: 0px!important;
+		font-size:14px!important;
+		padding:0px 10px 0;
+	}
+	.introduction .red_btn{
+		margin-top: 30px!important;
+	  margin-bottom: 0px!important;
+		font-size:14px!important;
+		padding:0px 10px 0;
+	}
+	.school_admission .admission .red_btn img,
+	.school_about .red_btn img,
+	.introduction .red_btn img{
+		display:inline-block;
+		position:absolute;
+		width:15px;
+		top:28%;
+		left:1%;
+	}
+
+
+
+	.school_admission ul{
+		margin-bottom:0px;
+		margin-top:0;
+	}
+	.school_admission .admission li{
+		font-size:12px;
+		margin-bottom:40px;
+		padding-top:0;
+	}
+	.school_admission .lead{
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 50px;
+		font-size:12px!important;
+		width:auto;
+	}
+	.school_admission .admission .submit_to{
+		margin-top:0px;
+	}
+	.school_archive .archive .main_icon{
+		width:100px;
+		display:inline-block;
+		margin-right:10px;
+		margin-left:0;
+		vertical-align:top;
+	}
+
+	.school_archive .archive h4{
+		color:rgb(150, 34, 34);
+		font-size:14px;
+		font-weight:normal;
+	}
+	.school_archive .archive .sub{
+		font-size:15px;
+	  margin-top: 15px;
+	  display: block;
+	}
+	.school_archive .archive li{
+		margin-bottom:10px;
+	}
+
+	.school_archive .archive li:nth-child(4) img{
+		width: 60%;
+	  margin: 0 auto;
+	  max-width: 302px;
+	}
+
+	.school_archive .archive .profile{
+		width:60%;
+		display:inline-block;
+		vertical-align:top;
+	}
+	.school_archive .archive .profile p{
+		margin-top:5px;
+		line-height:18px;
+	}
+	.kv h2{
+		margin-left: -76px;
+    letter-spacing: 2px;
+	}
+
+
+
+}

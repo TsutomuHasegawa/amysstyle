@@ -1,0 +1,217 @@
+/* TOP */
+#slideShow #slideThumb{
+  padding-top: 20px;
+}
+.about {
+  background: url(bg02.png) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 68px 0 30px;
+  height: 70px;
+}
+
+.about h2{
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin-right: 35px;
+  letter-spacing: 2px;
+}
+.about h2 span{
+  font-family: Futura W01;
+}
+
+.about p.text{
+  display: inline-block;
+  width: 57%;
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 24px;
+}
+.col3{
+  background:url(bg01.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 80px 0 100px;
+}
+.col3 h2{
+  font-size: 34px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  color: #780000;
+  line-height: 28px;
+}
+.top-info{
+  background: rgb(248, 238, 238);
+  padding: 85px 0 70px;
+  position: relative;
+}
+.top-info h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 38px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #780000;
+  line-height: 28px;
+  font-family: Futura W01;
+}
+.top-info a.more{
+  text-transform: uppercase;
+  color: #780000;
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  margin-top: -52px;
+  margin-left: 160px;
+  letter-spacing: 3px;
+  font-family: Futura W01;
+}
+.top-info a.more:after{
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px rgb(120, 0, 0);
+  border-right: solid 2px rgb(120, 0, 0);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.bottom-menu ul{
+  font-size: 0;
+}
+.bottom-menu ul li{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  position: relative;
+}
+.bottom-menu ul li a{
+  display: block;
+}
+.bottom-menu ul li img{
+  width: 100%;
+}
+.bottom-menu ul li .layer{
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  width: 200px;
+  height: 53px;
+  margin-left: -100px;
+  margin-top: -26px;
+}
+.bottom-menu ul li .layer .en{
+  font-size: 34px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Futura W01;
+  line-height: 28px;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+.bottom-menu ul li .layer .jp{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+
+/* SPのとき */
+@media screen and (max-width: 739px) {
+	#slideShow #slideThumb {
+    padding-top: 12px;
+	}
+	#slideShow #slideThumb a {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+	}
+	.about {
+	  background:url(bg02_sp.png) no-repeat;
+		background-size: 100% 100%;
+    padding: 35px 0 8px;
+    height: auto;
+	}
+	.about p.text {
+    display: block;
+    width: auto;
+    vertical-align: top;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 8px;
+    text-align: center;
+	}
+	.about h2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    width: auto;
+    display: block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 0;
+	}
+	.col3 {
+    background: url(bg01_sp.png) no-repeat;
+		background-size: 100% 100%;
+    padding: 30px 0;
+	}
+	.col3 h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    font-weight: 300;
+	}
+
+	.bottom-menu ul li {
+    display: block;
+    width: auto;
+	}
+	.bottom-menu ul li .layer .en {
+    font-size: 18px;
+    font-family: Futura W01;
+    line-height: 20px;
+    margin-bottom: 0px;
+	}
+	.bottom-menu ul li .layer .jp {
+    font-size: 12px;
+    letter-spacing: 0;
+	}
+	.bottom-menu ul li .layer {
+    width: 140px;
+    height: 40px;
+    margin-left: -70px;
+    margin-top: -20px;
+	}
+
+	.top-info {
+    padding: 30px 0 20px;
+	}
+	.top-info a.more {
+    position: static;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    display: block;
+    width: 70px;
+    margin: 20px auto 0;
+    letter-spacing: 1px;
+	}
+	.top-info h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+	}
+}

@@ -1,0 +1,75 @@
+#company{
+	margin:0 auto;
+}
+#company h2.underlayer{
+	padding:110px 0 83px;
+}
+#company ul{
+	margin:0 auto 187px 50px;
+	padding-left:186px;
+}
+
+#company li{
+	width:580px;
+	margin-bottom:20px;
+}
+
+#company h3{
+	color:rgb(150, 34, 34);
+	font-size:15px;
+	width:100px;
+	font-weight:normal;
+	display:inline-block;
+	vertical-align:top;
+}
+
+
+#company li p{
+	width:475px;
+	font-size:15px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+/* PCのとき */
+@media screen and (min-width: 740px) {
+}
+
+/* SPのとき */
+@media screen and (max-width: 739px) {
+
+	#company{
+		width:100%;
+		padding:0 auto;
+	}
+	#company h2.underlayer{
+    padding: 80px 0;
+    font-size: 18px;
+	}
+	#company ul{
+		width:100%;
+		margin:0 auto 50px;
+		padding-left:0;
+	}
+
+	#company li{
+		width:100%;
+		margin-bottom:15px;
+	}
+
+	#company h3{
+		width:70px;
+		font-size:12px;
+	}
+
+
+	#company li p{
+		width:74%;
+		font-size:12px;
+	}
+
+
+
+}
+
+
