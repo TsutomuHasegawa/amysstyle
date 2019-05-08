@@ -1,0 +1,649 @@
+/* ABOUT */
+.about .description {
+  padding-top: 100px;
+	padding-bottom: 90px;
+}
+.about h2.underlayer{
+  padding: 78px 0 42px;
+  font-size: 22px;
+}
+.about .logo {
+	display: block;
+  margin: 0 auto;
+}
+.about .lead {
+  text-align: center;
+  font-size: 13px;
+  line-height: 24px;
+}
+.about section.foodie_style {
+	text-align: center;
+	background: rgb(248, 238, 238);
+	padding-top: 76px;
+	padding-bottom: 30px;
+}
+.about section.foodie_style h2 {
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #780000;
+  line-height: 40px;
+  letter-spacing: 6px;
+}
+.about section.foodie_style ul {
+	box-sizing: border-box;
+	margin: 65px 0;
+	padding: 0 60px;
+	width: 100%;
+}
+.about section.foodie_style ul li {
+	float: left;
+	margin: 0 1%;
+	width: 14.666%;
+	box-sizing: border-box;
+}
+.about section.foodie_style ul li img {
+	width: 100%;
+}
+.about section.foodie_style ul li div.font-futura {
+	color: #780000;
+	font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.about section.foodie_style ul li:nth-child(2n) img {
+	margin-top: 10px;
+}
+.about section.foodie_style ul li:nth-child(2n-1) img {
+	margin-bottom: 15px;
+}
+.about section.profile {
+	padding-top: 85px;
+	padding-bottom: 65px;
+}
+.about section.profile .content figure {
+	float: left;
+	margin: 0;
+}
+.about section.profile .content h4 {
+	margin-left: 268px;
+	margin-bottom: 20px;
+	font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.about section.profile .content p {
+	margin-left: 268px;
+}
+.about .block {
+  margin: 0 auto 35px;
+}
+.about .ttl .more {
+	float: right;
+	color: #780000;
+	position: relative;
+	padding-right: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family:Futura W01;
+  letter-spacing: 3px;
+}
+.about .ttl .more:after{
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  border-top: solid 2px rgb(120, 0, 0);
+  border-right: solid 2px rgb(120, 0, 0);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+}
+.about .books{
+  margin:0 auto 75px
+}
+.about .books ul {
+	margin-top: 0px;
+}
+.about .books ul li {
+	float: left;
+	text-align: center;
+	width: 25%;
+	color: #780000;
+}
+.about .books ul li img {
+	margin: 0 auto 15px;
+}
+.about .block .half {
+	width: 46%;
+	float: left;
+}
+.about .block .half.left {
+	margin-right: 8%;
+}
+.about .block .half .content {
+	padding-left: 0;
+  padding-right: 0;
+  line-height: 18px;
+}
+.about .block .half .content span.label {
+	color: #780000;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.about .block .half .content .text {
+	line-height: 18px;
+	font-size: 13px;
+}
+.about .block .content {
+  padding-left: 0px;
+}
+.ttl .sub-ttl{
+  font-family: "Noto Sans Japanese";
+}
+.kv h2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -252px;
+}
+/* BOOKS */
+.introduction {
+	background: url('bg01.jpg') no-repeat;
+	background-size: 100%;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.introduction h1.logo {
+	padding: 50px 0;
+}
+.introduction h1.logo > img {
+	margin: 0 auto;
+}
+.introduction .concept {
+	color: rgb(120, 0, 0);
+	font-size: 16px;
+}
+.introduction .exp {
+	margin-top: 25px;
+}
+.col3 {
+	padding: 70px 0;
+	margin-top: 0;
+}
+
+.about_media,
+.about_books{
+  max-width: 1000px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+	position:relative;
+}
+.about_media h2.underlayer,
+.about_books h2.underlayer{
+	text-transform: none;
+	padding: 109px 0 11px;
+	font-size: 34px;
+}
+.about_books .books .block {
+	margin: 0 auto 66px;
+}
+.about_books .books h3{
+  font-size: 19px;
+  color: rgb(150, 34, 34);
+  margin: -3px auto 5px 0px;
+  padding-bottom: 3px;
+	font-weight:normal;
+	display:inline-block;
+}
+.about_books .books .sub{
+  margin-left:0px;
+	display:block;
+}
+.about_media .lead,
+.about_books .lead{
+  text-align: center;
+  font-size: 14px;
+	position:absolute;
+	top:141px;
+	width:100%;
+}
+.about_books .books ul{
+	width:100%;
+	margin:70px auto 20px;
+}
+.about_books .books li{
+  width: 95%;
+  border-bottom:2px solid rgb(150, 34, 34);
+	padding: 50px 0 54px 46px;
+}
+.about_books .books li:nth-child(1){
+  border-top:2px solid rgb(150, 34, 34);
+}
+.about_books .books img.main_icon{
+	width:116px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:52px;
+}
+.about_books .books li:nth-child(1) img.main_icon{
+	width: 116px;
+	margin-right: 52px;
+}
+.about_books .books li:nth-child(2) img.main_icon,
+.about_books .books li:nth-child(3) img.main_icon{
+	width: 141px;
+	margin-right: 23px;
+}
+.about_books .books .profile{
+	display:inline-block;
+	vertical-align:top;
+  width: 81%;
+}
+.about_books .books .profile p{
+	margin-bottom:0;
+	font-size:12px;
+	line-height:21px;
+	margin-top:20px;
+}
+.about_books .books .profile a{
+	color:rgb(150, 34, 34);
+	display: block;
+  width: 56%;
+}
+.about_books .books .profile a .buy{
+    margin-top: 18px;
+    position: relative;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid rgb(150, 34, 34);
+	height: 28px;
+    font-size: 13px;
+    height: auto;
+    padding-right: 23px;
+}
+.about_books .books .profile .buy:after{
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px rgb(150, 34, 34);
+    border-right: solid 2px rgb(150, 34, 34);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    right: 17px;
+}
+.about_books .books .profile .privilege{
+  margin-top: 5px;
+  font-size: 11px;
+	margin-bottom:0;
+}
+
+
+.block .content .text span.txt{
+  display: block;
+  padding-left: 15px;
+}
+.block .content .text span.label{
+  color: rgb(150, 34, 34);
+  font-weight: bold;
+}
+.block .content .text span.label .note{
+  color: #666;
+}
+.red_btn img {
+	display: inline-block;
+  vertical-align: top;
+  padding-left: 12px;
+  margin-right: 5px;
+}
+a.red_btn {
+  text-align: left;
+  margin: 80px auto 20px;
+}
+
+.about_media h2.underlayer{
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+.about_media .coverage{
+  margin-top: 70px;
+  margin-bottom: 230px;
+}
+.about_media .year{
+  font-size: 0;
+  text-align: left;
+  border-top: 2px #780000 solid;
+  padding-top: 18px;
+}
+.about_media .year li{
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+}
+.about_media .year li a{
+  color:#780000;
+  font-size: 13px;
+}
+.about_media .year li.current{
+  border-bottom: 2px solid #780000;
+  padding-bottom: 1px;
+}
+.about_media .text{
+  margin-top: 45px;
+  margin-left: 25px;
+  font-size: 14px;
+  display:none;
+}
+.about_media .text .cont{
+  margin-bottom:19px;
+	display:block;
+}
+
+.about_media .text.open {
+  display:block;
+}
+@media screen and (max-width: 739px) {
+	.introduction {
+		padding-bottom: 20px;
+	}
+	.introduction h1.logo {
+		padding: 20px 0;
+	}
+	.introduction h1.logo > img {
+		width: 100px;
+	}
+	.introduction .concept {
+		padding: 0 16px;
+	}
+	.introduction .exp {
+		padding: 0 16px;
+		margin-top: 15px;
+		text-align: left;
+	}
+	.col3 {
+		padding: 20px 0;
+		margin-top:0;
+	}
+
+	.about_books h2.underlayer{
+		padding:83px 0 105px;;
+		font-size: 18px;
+	}
+	.about_books .books li:nth-child(1) img.main_icon {
+		width: 57px;
+		margin: 0 auto !important;
+	}
+	.about_books .books li:nth-child(2) img.main_icon,
+	.about_books .books li:nth-child(3) img.main_icon {
+		width: 70px;
+		margin: 0 auto !important;
+	}
+	.about h2.underlayer {
+    padding: 25px 0 15px;
+    font-size: 16px;
+    letter-spacing: 0px;
+	}
+	.about_books .books .block {
+		margin: 0 auto 10px;
+	}
+	.about_books .books h3{
+	  font-size: 15px;
+	  color: rgb(150, 34, 34);
+	  margin-top: 17px;
+		font-weight:normal;
+		display:block;
+	}
+	.about_books .books .sub{
+	  margin-left:0px;
+		display:block;
+	}
+	.about_media .lead,
+	.about_books .lead{
+	  text-align: center;
+	  font-size: 10px;
+		position:absolute;
+		top:105px;
+		width:100%;
+	}
+	.about_books .books ul{
+		width:100%;
+		margin:0 auto 6px;
+	}
+	.about_books .books li{
+		width:100%;
+	  border-bottom:2px solid rgb(150, 34, 34);
+		padding: 30px 0;
+	}
+
+	.about_books .books li:nth-child(1){
+	  border-top:2px solid rgb(150, 34, 34);
+	}
+
+	.about_books .books img.main_icon{
+		width:100px;
+		display:block;
+		vertical-align:top;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.about_books .books .profile{
+		display:block;
+		vertical-align:top;
+		width:100%;
+	}
+	.about_books .books .profile p{
+		margin-bottom:10px;
+		font-size:12px;
+		line-height:18px;
+		margin-top:25px;
+	}
+	.about_books .books .profile a{
+		color:rgb(150, 34, 34);
+		font-size:14px;
+		display: block;
+    padding: 0 5%;
+		width: auto;
+	}
+	.about_books .books .profile a .buy{
+		position: relative;
+		display: block;
+		border: 1px solid rgb(150, 34, 34);
+		line-height: 20px;
+		height: 40px;
+		margin: 28px auto 0;
+		font-size: 12px;
+	}
+	.about_books .books .profile .buy:after{
+	    width: 7px;
+	    height: 7px;
+	    border-top: solid 2px rgb(150, 34, 34);
+	    border-right: solid 2px rgb(150, 34, 34);
+	    -webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	    content: "";
+	    display: inline-block;
+	    position: absolute;
+	    top: 15px;
+	    right: 7px;
+	}
+	.about_books .books .profile .privilege{
+	  margin-top: 5px;
+	  font-size: 11px;
+		margin-bottom:0;
+	}
+
+
+
+
+	.block .content .text span.label .note {
+    color: #666;
+    font-size: 11px;
+	}
+	.red_btn img{
+    width: 15px;
+    padding-top: 2px;
+	}
+	a.red_btn {
+    text-align: left;
+    margin: 20px auto 12px;
+	}
+	.about .logo {
+		width: 98px;
+	}
+	.about .lead {
+		text-align: left;
+		padding: 0 8px;
+    font-size: 12px;
+    line-height: 20px;
+	}
+	.about .description {
+    padding-top: 25px;
+    padding-bottom: 20px;
+	}
+	.about section.foodie_style h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #780000;
+    line-height: 20px;
+    letter-spacing: 1px;
+	}
+	.about section.foodie_style {
+    padding-top: 40px;
+    padding-bottom: 15px;
+	}
+	.about section.foodie_style ul {
+    padding: 0 10px;
+		margin: 0;
+	}
+	.about section.foodie_style ul li {
+		width: 31.333%;
+		font-size: 10px;
+		margin: 10px 1%;
+	}
+	.about section.foodie_style ul li div.font-futura {
+		font-size: 10px;
+	}
+	.about section.profile {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.about section.profile .content figure {
+		float: none;
+		display: block;
+	}
+	.about section.profile .content figure img {
+		width: 110px;
+		margin: 0 auto;
+	}
+	.about section.profile .content h4 {
+		margin-left: 0;
+		font-size: 14px;
+		margin-top: 15px;
+		letter-spacing: 0;
+	}
+	.about section.profile .content p {
+		margin-left: 0;
+	}
+	.about .books ul {
+		margin-bottom: 0;
+	}
+	.about .books ul li {
+		width: 50%;
+		font-size: 10px;
+		margin-bottom: 10px;
+    line-height: 14px;
+	}
+	.about .books ul li img {
+		height: 77px;
+	}
+	.about .books {
+    margin: 0 auto 15px;
+	}
+	.about .block .half {
+		width: auto;
+		float: none;
+		padding-bottom: 30px;
+	}
+	.about .block .half.left {
+    margin-right: 0;
+	}
+	.about .block .content {
+    padding-top: 8px;
+		padding-right: 0;
+	}
+	.about .ttl .more {
+    padding-right: 8px;
+    font-size: 12px;
+		letter-spacing: 1px;
+	}
+	.about .books ul li img {
+    margin: 0 auto 8px;
+	}
+	.about .block .half.right{
+		padding-bottom:0;
+	}
+	.about .block {
+    margin: 0 auto 15px;
+	}
+	.about .block .half .content .text {
+    font-size: 12px;
+	}
+	.kv h2{
+  	margin-left: -63px;
+	}
+
+
+	.about_media h2.underlayer {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 80px 0 74px;
+	}
+	.about_media .coverage {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0 8px;
+	}
+	.about_media .year {
+    padding-top: 8px;
+	}
+	.about_media .year li {
+    margin-right: 0;
+    width: 20%;
+    text-align: center;
+	}
+	.about_media .year li a {
+    font-size: 12px;
+    display: block;
+		padding: 5px 0;
+	}
+	.about_media .text {
+    margin-top: 30px;
+    margin-left: 8px;
+    font-size: 12px;
+	}
+	.about_media .year li.current {
+    border-bottom: none;
+    padding-bottom: 0;
+	}
+	.about_media .year li.current:after {
+		content:"";
+    border-bottom: 1px solid #780000;
+    display: block;
+    width: 45px;
+    margin: -5px auto;
+	}
+	.about_media .lead{
+		top: 100px;
+	}
+}
