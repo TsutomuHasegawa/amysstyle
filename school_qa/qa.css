@@ -1,0 +1,223 @@
+ /* QA */
+
+.school_qa{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.school_qa .themes{
+	margin:2px auto 0;
+	font-size:0;
+  text-align: center;
+	padding-bottom:16px;
+}
+
+.school_qa .lead{
+	position: absolute;
+  top: 162px;
+  width: 100%;
+  text-align: center;
+	font-size:14px;
+}
+
+.school_qa .themes a,
+.school_qa .themes p{
+	display:inline-block;
+	width:360px;
+	padding:15px 10px 12px;
+	border:1px solid rgb(150, 34, 34);
+	text-align:center;
+	color:rgb(150, 34, 34);
+	font-size:15px;
+	letter-spacing:1px;
+}
+
+.school_qa .themes span{
+	font-size:23px;
+	display: block;
+  margin-bottom: 5px;
+	letter-spacing:1px;
+}
+
+.school_qa .themes .lesson{
+	margin-right:20px;
+}
+
+.school_qa .themes .selected{
+	color:#FFF;
+	background-color: rgb(150, 34, 34);
+}
+.school_qa h2{
+	font-size:30px;
+	font-family: Futura W01;
+}
+.school_qa .qa .contact{
+  display: inline-block;
+  color: rgb(150, 34, 34);
+  padding-right: 25px;
+  position: relative;
+  font-size: 15px;
+  margin-top: 10px;
+	margin-bottom:20px;
+	letter-spacing:2px;
+}
+.school_qa .qa .contact:after{
+	width: 5px;
+	height: 5px;
+	border-top: solid 2px rgb(150, 34, 34);
+	border-right: solid 2px rgb(150, 34, 34);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	right: 12px;
+}
+.school_qa .qa .block li{
+	margin-bottom:58px;
+}
+.school_qa .qa .block li:nth-child(1){
+	margin-bottom:56px;
+}
+.school_qa .qa .block li:nth-child(2){
+	margin-bottom:54px;
+}
+.school_qa .qa .block li:nth-child(3){
+	margin-bottom:57px;
+}
+
+.school_qa .qa .block li h3.ttl{
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  line-height: 24px;
+}
+.school_qa .qa .block li:nth-child(5){
+	margin-bottom:52px;
+}
+.school_qa .qa .block li:nth-child(8){
+	margin-bottom:54px;
+}
+.school_qa .qa .block li:nth-child(9){
+	margin-bottom:86px;
+}
+.school_qa .qa .block li h3{
+	letter-spacing:1px;
+}
+
+.block .content .text span.txt{
+  display: block;
+  padding-left: 15px;
+}
+.block .content .text span.label{
+  color: rgb(150, 34, 34);
+  font-weight: 500;
+}
+.block .content .text span.label .note{
+  color: #666;
+}
+.red_btn img {
+	display: inline-block;
+  vertical-align: top;
+  padding-left: 12px;
+  margin-right: 5px;
+}
+a.red_btn {
+  text-align: left;
+  margin: 80px auto 0px;
+}
+
+/* sp */
+@media screen and (max-width: 739px) {
+
+	.school_qa h2.underlayer{
+    line-height: 20px;
+    font-size: 22px;
+    letter-spacing: 2px;
+	}
+
+
+	.block .content .text span.label .note {
+    color: #666;
+    font-size: 11px;
+	}
+	.red_btn img{
+    width: 15px;
+    padding-top: 2px;
+	}
+	a.red_btn {
+    text-align: left;
+    margin: 20px auto 12px;
+	}
+
+	.school_qa{
+		max-width:100%;
+		position:relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.school_qa .qa .block li h3.ttl{
+		line-height:normal;
+		letter-spacing:0px;
+    font-size: 14px;
+    padding-bottom: 2px;
+	}
+
+	.school_qa .themes{
+		width:100%;
+		text-align:center;
+		margin:0 auto;
+		font-size:0;
+	}
+
+	.school_qa .lead{
+		position: absolute;
+    top: 92px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 11px;
+	}
+
+	.school_qa .themes a,
+	.school_qa .themes p{
+		display:inline-block;
+		width:46%;
+		padding:5px 3px;
+		border:1px solid rgb(150, 34, 34);
+		text-align:center;
+		color:rgb(150, 34, 34);
+		font-size:11px;
+	}
+
+	.school_qa .themes span{
+		font-size:14px;
+		margin-bottom:0;
+	}
+
+	.school_qa .themes .lesson{
+		margin-right:2%;
+	}
+	.school_qa .qa .block li{
+		margin-bottom:40px!important;
+	}
+	.school_qa .qa .contact{
+	  font-size: 13px;
+		padding-right:20px;
+		letter-spacing:0px;
+	}
+	.school_qa .qa .contact:after{
+		width: 4px;
+		height: 4px;
+		top: 7px;
+		right: 10px;
+	}
+	.school_qa .qa .block li:nth-child(9){
+		margin-bottom:20px;
+	}
+
+
+
+}

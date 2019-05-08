@@ -1,0 +1,162 @@
+/* PRODUCE */
+.produce {
+	padding-top: 95px;
+	padding-bottom: 60px;
+}
+.produce h2.underlayer {
+	padding: 70px 0 40px;
+	font-size: 28px;
+	letter-spacing: 4px;
+	font-family: noto;
+}
+.produce .logo {
+	display: block;
+	margin: 0 auto;
+}
+.produce .produce-txt {
+	text-align: center;
+	font-size: 13px;
+	line-height: 24px;
+}
+.produce .list01 ul li .e-mail {
+	color: rgb(120, 0, 0);
+	font-size: 14px;
+}
+.produce .list01 ul li p {
+	font-size: 13px;
+	margin-top: 15px;
+	padding: 0 5px;
+}
+.produce .block {
+	max-width: none;
+	padding: 0 20px;
+}
+/*
+.produce .block h3.ttl {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+*/
+.produce .content ul.venue-list {
+	text-align: center;
+	font-size:0;
+}
+.produce .content ul.venue-list li {
+	display: inline-block;
+	vertical-align: top;
+	width: 24.7%;
+}
+.produce .content ul.venue-list li:nth-child(-n+3) {
+	margin-right: 6px;
+}
+.produce .content ul.venue-list li a {
+}
+.produce .content ul.venue-list li:nth-child(4) {
+	width: 23.5%;
+}
+.produce .content ul.venue-list li img {
+	width: 100%;
+	display: inline-block;
+}
+.produce .content ul.venue-list li:nth-child(4) img {
+	width: 48%;
+	display: inline-block;
+}
+.produce .content ul.venue-list li:nth-child(4) .right-img {
+	margin-left: 7px;
+}
+a.red_btn.pdf:before {
+	background: url('btn_icon_pdf.png') no-repeat;
+	width: 18px;
+	height: 20px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 11px;
+	left: 13px;
+}
+.kv h2{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -290px;
+	letter-spacing: 8px;
+}
+@media screen and (max-width: 739px) {
+	.produce {
+		padding-top: 25px;
+		padding-bottom: 18px;
+	}
+	.produce h2.underlayer {
+		padding: 18px 0 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+	}
+	.produce .logo {
+		width: 122px;
+	}
+/*
+	.produce .content .ttl {
+		font-size: 12px;
+	}
+*/
+	.produce .list01 ul li .list-ttl {
+	}
+	.produce .list01 ul li p {
+		font-size: 11px;
+		line-height: 18px;
+		margin-top: 0;
+    padding: 0;
+	}
+	.produce .block {
+		max-width: none;
+		padding: 0 8px;
+	}
+	.produce .content ul.venue-list li {
+		width: 48% !important;
+	}
+
+	.produce .content ul.venue-list li:nth-child(1),
+	.produce .content ul.venue-list li:nth-child(3) {
+		margin-right: 5px;
+	}
+	.produce .content ul.venue-list li:nth-child(2) {
+		margin-right: 0;
+	}
+	.produce .content ul.venue-list li:nth-child(3),
+	.produce .content ul.venue-list li:nth-child(4) {
+		margin-top: 0px;
+	}
+	.produce .content ul.venue-list li:nth-child(4) img {
+		width: 45.4%;
+		display: inline-block;
+	}
+	.produce .content ul.venue-list li:nth-child(4) .right-img {
+		margin-left: 5px;
+	}
+	.produce .block h3.ttl {
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+	.produce a.red_btn:before {
+    width: 15px;
+    height: 17px;
+    content: "";
+    top: 50%;
+    left: 8px;
+    background-size: 100%;
+    margin-top: -8px;
+	}
+	.produce .produce-txt {
+    text-align: left;
+    padding: 0 8px;
+	font-size: 12px;
+	line-height: 20px;
+	}
+	.kv h2{
+    margin-left: -85px;
+    letter-spacing: 2px;
+	}
+}

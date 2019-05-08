@@ -1,0 +1,82 @@
+#privacy{
+	width:100%;
+	margin:0 auto;
+  max-width: 1000px;
+}
+
+#privacy ul{
+	width:100%;
+	margin:0 auto 172px;
+}
+/*
+#privacy h3.ttl{
+	font-size:20px;
+	padding-bottom:19px;
+	font-family: "Noto Sans Japanese"!important;
+}
+*/
+/*
+#privacy h2{
+	font-family: "Noto Sans Japanese"!important;
+}
+*/
+#privacy li{
+	width:100%;
+	margin-bottom:65px;
+}
+#privacy li p{
+	margin-top:20px;
+}
+#privacy li:nth-child(1){
+	margin-bottom:70px;
+}
+#privacy li:nth-child(3){
+	margin-bottom:61px;
+}
+#privacy li:nth-child(4){
+	margin-bottom:56px;
+}
+#privacy li:nth-child(5){
+	margin-bottom:58px;
+}
+#privacy .mail{
+	color:rgb(150, 34, 34);
+}
+
+#privacy .mail:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+/* PCのとき */
+@media screen and (min-width: 740px) {
+}
+
+/* SPのとき */
+@media screen and (max-width: 739px) {
+
+
+	#privacy{
+		width:100%;
+		margin:0 auto;
+	}
+
+	#privacy ul{
+		width:100%;
+		margin:0 auto 50px;
+		padding-left:0;
+	}
+
+	#privacy li{
+		width:100%;
+		margin-bottom:60px!important;
+	}
+/*
+	#privacy h3.ttl{
+		font-size:15px;
+		padding-bottom:7px;
+	}
+*/
+
+}
+
+

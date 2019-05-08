@@ -1,0 +1,128 @@
+#recruit{
+	text-align:center;
+	margin-bottom:80px;
+}
+
+#recruit p{
+	font-size: 13px;
+  line-height: 23px;
+}
+
+#recruit h2{
+	padding-bottom:30px;
+}
+
+#detail{
+	text-align:center;
+}
+
+#detail h3.subtitle{
+  width: 460px;
+  margin: 0 auto;
+/*
+	letter-spacing: 1px;
+  font-size:20px;
+	padding-bottom:19px;
+*/
+}
+
+#detail h4{
+	font-size:15px;
+  font-weight: normal;
+	color: rgb(150, 34, 34);
+	margin-top:30px;
+}
+
+#detail ul.disc{
+  margin-top: 14px;
+	padding-bottom:18px;
+}
+
+a.red_btn{
+	margin-top: 43px;
+  margin-bottom: 127px;
+	width:240px;
+	display:block;
+	position:relative;
+	font-size:14px;
+}
+
+a.red_btn img{
+	display:inline-block;
+	position:absolute;
+	width:20px;
+	top:21%;
+	left:5%;
+}
+
+
+/* PCのとき */
+@media screen and (min-width: 740px) {
+}
+
+/* SPのとき */
+@media screen and (max-width: 739px) {
+
+
+	#recruit{
+		width:100%;
+		margin:0 auto 30px;
+
+	}
+
+	#recruit p{
+		text-align:left;
+		width:100%;
+		margin:auto;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	#recruit h2{
+		padding-bottom:25px;
+	}
+
+	#detail{
+		width:100%;
+		margin:0 auto 30px;
+	}
+
+	#detail h3.subtitle{
+		max-width:350px;
+	  width: 100%;
+/*
+	  font-size: 16px;
+	  color: rgb(150, 34, 34);
+	  border-bottom: 2px solid rgb(150, 34, 34);
+	  margin: 0 auto;
+		padding-bottom:0px;
+*/
+	}
+
+	#detail h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+	}
+
+	a.red_btn{
+		margin-top: 45px;
+		margin-bottom: 0px;
+	}
+
+	a.red_btn img{
+		display:inline-block;
+		position:absolute;
+		width:15px;
+		top:28%;
+		left:5%;
+	}
+
+	#detail ul.disc{
+		padding-bottom:0;
+	}
+
+
+}
+
+
